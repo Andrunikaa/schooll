@@ -560,7 +560,7 @@ video {
   display: flex;
   align-items: flex-start;
   padding: 40px;
-  gap: 40px; /* Space between text and carousel */
+  gap: 40px; /* Space between text and  */
 }
 
 /* Text Content */
@@ -585,20 +585,20 @@ video {
   margin-bottom: 15px;
 }
 
-.image-carousel {
+.image- {
   width: 70%; /* Take up half the width */
   position: relative;
   overflow: hidden;
   border-radius: 20px; /* Rounded corners */
 }
 
-.carousel-wrapper {
+.-wrapper {
   display: flex; /* Place images horizontally */
   transition: transform 0.8s; /* Smooth transition */
   width: 500%;
 }
 
-.carousel-image {
+.-image {
   width: 100%; /* Each image takes up 50% (original 100%, divided into 2) */
   object-fit: cover;
   border-radius: 20px; /*  Match the overflow:hidden on the container */
@@ -1663,7 +1663,7 @@ a {
   }
   .image-carousel {
     margin: auto;
-    width: 78%; /* Take up half the width */
+    width: 75%; /* Take up half the width */
     position: relative;
     border-radius: 20px; /* Rounded corners */
   }
@@ -1672,7 +1672,7 @@ a {
     display: flex;
     transition: transform 0.8s;
     border-radius: 20px;
-    width: 520%;
+    width: 510%;
   }
 
   .carousel-image {
