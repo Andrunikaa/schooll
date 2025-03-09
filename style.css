@@ -1666,13 +1666,14 @@ a {
     width: 75%; /* Take up half the width */
     position: relative;
     border-radius: 20px; /* Rounded corners */
+    border:1px solid blue;
   }
 
   .carousel-wrapper {
     display: flex;
     transition: transform 0.8s;
     border-radius: 20px;
-    width: 510%;
+    width: 500%;
   }
 
   .carousel-image {
