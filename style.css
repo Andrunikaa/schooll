@@ -1466,6 +1466,8 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    width: 60%;
+    margin-bottom: 60px;
   }
   .header__info-logo {
     border: none;
@@ -1605,6 +1607,7 @@ a {
     margin: auto;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 60px;
   }
   .disciplines__title {
     font-size: 35px;
@@ -1690,12 +1693,12 @@ a {
     margin-left: 45px;
     margin-top: 40px;
 
-    width: 66%;
+    width: 68%;
+    border: 1px solid red;
   }
   .examples {
     margin: auto;
     width: 100%;
-    margin-top: 50px;
     margin-bottom: 100px;
     margin: auto;
   }
@@ -1819,10 +1822,10 @@ a {
   }
   .motivation__grid-img {
     border-radius: 20px;
-    width: 350px;
+    width: 330px;
   }
   #motivation__grid-img-type-2 {
-    width: 350px;
+    width: 330px;
   }
   .teachers {
     width: 100%;
