@@ -1,0 +1,1989 @@
+div,
+html,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+img,
+b,
+u,
+i,
+center,
+table,
+tr,
+th,
+td,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.header {
+  width: 80%;
+  margin: auto;
+}
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.header__info-logo {
+  border: none;
+  background: none;
+  background-image: url(images/header__info-logo.png);
+  width: 220px;
+  height: 75px;
+  background-size: 220px 75px;
+  background-repeat: no-repeat;
+}
+.header__info-types {
+  font-size: 14px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  color: #2d2c2a;
+}
+.header__info-num {
+  font-size: 14px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  color: #2d2c2a;
+}
+.header__content {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header__content-img {
+  width: 450px;
+  height: 450px;
+  border-radius: 53%;
+}
+.header__content-info-title {
+  color: #2d2c2a;
+  font-size: 80px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.header__content-info-title-span {
+  background: #f1e40a;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.header__content-info-button {
+  color: #2d2c2a;
+  background: none;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-radius: 20px 20px 20px 20px;
+  background-position: center center;
+  border-color: #2d2c2a;
+  border-style: solid;
+  width: 350px;
+  height: 50px;
+  transition: 0.5s;
+}
+.header__content-info-button:hover {
+  background-color: #2d2c2a;
+  color: white;
+}
+.mission {
+  width: 65%;
+  margin: auto;
+  margin-top: 200px;
+}
+.mission__title {
+  color: #2d2c2a;
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+.mission__title-span {
+  background: #f1e40a;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.mission-description {
+  color: #2d2c2a;
+  font-size: 18px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  opacity: 0.8;
+}
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.mission-content-cards-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission-content-card {
+  width: 85%;
+  height: 150px;
+  border: 2px solid #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+.mission-content-card-img {
+  width: 75px;
+  height: 40px;
+}
+.youtube {
+  border-radius: 20px;
+}
+
+.mission-content-card-p {
+  color: #2d2c2a;
+  font-size: 18px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 40%;
+  text-align: center;
+}
+#group__lessons-p {
+  width: 60%;
+}
+#format-p {
+  width: 60%;
+}
+.mission-content-video {
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+}
+.cover-img {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+.reasons {
+  margin: auto;
+  width: 65%;
+  margin-top: 100px;
+  z-index: 1;
+}
+.reasons__title {
+  color: #2d2c2a;
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-left: 20px;
+}
+.reasons__title-span {
+  background: #f1e40a;
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  color: white;
+}
+.reasons__cards-container {
+  display: grid;
+}
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 170px));
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  margin-left: 100px;
+}
+
+/* Card Styling */
+.reason-card {
+  background-color: #fff;
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+}
+
+.reason-card img {
+  width: 80px; /* Adjust the size of icons */
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.reason-card p {
+  color: #2d2c2a;
+  font-size: 18px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  opacity: 0.8;
+}
+
+.disciplines {
+  margin: auto;
+  width: 65%;
+  z-index: 1;
+  margin-top: 200px;
+}
+.disciplines__title {
+  color: #2d2c2a;
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+}
+.disciplines__title-span {
+  background: #f1e40a;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.disciplines-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.disciplines-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.disciplines-section h2 span {
+  background-color: #ffea00; /* Yellow background */
+  padding: 5px 10px;
+}
+
+/* Grid Layout */
+.disciplines-grid {
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card Styles */
+.discipline-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+
+  background: #f2f4f6;
+  border-radius: 15px;
+}
+
+.discipline-card .card-number {
+  grid-area: number;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffea00;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  justify-self: start;
+}
+
+.discipline-card h3 {
+  color: #2d2c2a;
+  font-size: 24px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.discipline-card p {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 100%;
+  opacity: 0.8;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.discipline-card .signup-button {
+  width: 70%;
+  height: 35px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: #2d2c2a;
+  background-position: center center;
+  border-color: #2d2c2a;
+  border-style: solid;
+  transition: 0.6s;
+  margin-top: 30px;
+}
+.card-number-container {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+.discipline-card .signup-button:hover {
+  background: white;
+  color: black;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.cards-container-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.cards-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+#card-number-1 {
+  width: 47%;
+  height: 350px;
+}
+#card-number-2 {
+  width: 30%;
+  height: 440px;
+  display: flex;
+}
+#text {
+  width: 90%;
+}
+.disciplines-caption {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 20px;
+  opacity: 0.6;
+}
+.examples {
+  margin: auto;
+  width: 60%;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+.examples-title {
+  color: #2d2c2a;
+  font-size: 24px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+}
+.examples-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.examples-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 480px;
+}
+.examples-img-1 {
+  width: 350px;
+  height: 480px;
+  border-radius: 20px;
+}
+
+.examples-img-2 {
+  width: 420px;
+  height: 220px;
+  border-radius: 20px;
+}
+.examples-img-3 {
+  width: 420px;
+  height: 220px;
+  border-radius: 20px;
+}
+.examples-img-4 {
+  width: 350px;
+  height: 480px;
+  border-radius: 20px;
+}
+.reasons {
+  margin: auto;
+  width: 65%;
+}
+.introduction {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.introduction__text {
+  width: 45%;
+}
+.introduction__text-title {
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  color: #2d2c2a;
+}
+.introduction__text-title-span {
+  background: #f1e40a;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.introduction-text-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+.introduction-text-list-item {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+.about-me-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px; /* Space between text and carousel */
+}
+
+/* Text Content */
+.about-me-section .text-content {
+  width: 50%; /* Take up half the width */
+  text-align: left;
+  font-size: 1em;
+}
+
+.about-me-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-me-section h2 span {
+  background-color: #ffea00; /* Yellow background */
+  padding: 5px 10px;
+}
+
+.about-me-section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.image-carousel {
+  width: 100%; /* Take up half the width */
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px; /* Rounded corners */
+}
+
+.carousel-wrapper {
+  display: flex; /* Place images horizontally */
+  transition: transform 0.8s; /* Smooth transition */
+  width: 500%;
+}
+
+.carousel-image {
+  width: 100%; /* Each image takes up 50% (original 100%, divided into 2) */
+  object-fit: cover;
+  border-radius: 20px; /*  Match the overflow:hidden on the container */
+}
+
+/* Navigation Dots */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ffea00;
+}
+.motivation {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+.motivation__title {
+  color: #2d2c2a;
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 70%;
+}
+.motivation__title-span {
+  background: #f1e40a;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.motivation-text-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+.motivation-text-list-item {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-bottom: 10px;
+  width: 80%;
+  opacity: 0.8;
+}
+
+.motivation__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 170px));
+  padding-left: 120px;
+  margin-top: 60px;
+  gap: 40px;
+}
+.motivation__grid-img {
+  border-radius: 20px;
+  height: 410px;
+  width: 100%;
+}
+#motivation__grid-img-type-2 {
+  width: 100%;
+  height: 320px;
+}
+.teachers {
+  width: 65%;
+  margin: auto;
+  margin-top: 120px;
+}
+.teachers__cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 40px;
+}
+.teaceh__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teaceh__card-img {
+  width: 380px;
+  height: 390px;
+  border-radius: 50%;
+  margin-top: 0;
+}
+.teaceh__card-title {
+  color: #2d2c2a;
+  font-size: 28px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 20px;
+}
+.teaceh__card-caption {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  width: 95%;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.teaceh__card-link {
+  color: #ccc200;
+  font-size: 12px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  margin-top: 10px;
+}
+#card__dmitryNest {
+  padding-bottom: 40px;
+}
+#card__dmitryNest img {
+  width: 380px;
+  height: 370px;
+  background-repeat: no-repeat;
+}
+#card__ElenaBorj {
+  padding-bottom: 20px;
+}
+.teachers__title {
+  color: #2d2c2a;
+  font-size: 80px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.teachers__title-span {
+  background: #f1e40a;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.costs {
+  width: 65%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.costs__text {
+  width: 45%;
+  height: 220px;
+}
+.costs__variants {
+  width: 50%;
+}
+.costs__text-title {
+  font-size: 40px;
+  color: #2d2c2a;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+.costs__text-p {
+  font-size: 18px;
+  color: #2d2c2a;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.costs__text-p2 {
+  font-size: 15px;
+  color: #2d2c2a;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.price-item {
+  border-top: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.price-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.price-header h3 {
+  font-size: 20px;
+  color: #2d2c2a;
+  font-weight: 400;
+  font-family: "Evolventa", Arial, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.6s ease;
+  color: black;
+}
+
+.toggle-button.expanded {
+  transform: rotate(45deg); /* Rotate the plus sign */
+}
+
+.price-details {
+  padding: 10px 0;
+  font-size: 1.1em;
+  display: none; /* Initially hide the price details */
+}
+.price-details p {
+  font-size: 16px;
+  color: #2d2c2a;
+  font-weight: 400;
+  font-family: "Evolventa", Arial, sans-serif;
+  opacity: 0.8;
+}
+
+.price-details.expanded {
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .price-header h3 {
+    font-size: 1.1em;
+  }
+}
+.achievements {
+  width: 75%;
+  margin: auto;
+}
+.achievements__title {
+  color: #2d2c2a;
+  font-size: 60px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.achievements__title-span {
+  background: #f1e40a;
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  color: white;
+}
+.achievements__cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+.achievements__cards-first {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.achievements__cards-first-1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.achievements__cards-first-1-img {
+  border-radius: 20px;
+  width: 85%;
+  height: 300px;
+}
+.achievements__cards-first-1-title {
+  color: #2d2c2a;
+  font-size: 24px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 20px;
+}
+.achievements__cards-first-1-description {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 10px;
+  text-align: center;
+}
+.achievements__cards-first-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achievements__cards-first-2-img {
+  border-radius: 20px;
+  width: 90%;
+}
+.achievements__cards-scnd-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achievements__cards-scnd {
+  width: 35%;
+}
+.achievements__cards-scnd-1-title {
+  color: #2d2c2a;
+  font-size: 24px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 20px;
+}
+.achievements__cards-scnd-1-p {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.achievements__cards-scnd-1-img {
+  width: 100%;
+  height: 570px;
+  border-radius: 20px;
+}
+.achievements__cards-thrd {
+  width: 35%;
+}
+.achievements__cards-thrd-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achievements__cards-thrd-1-img {
+  border-radius: 20px;
+  width: 85%;
+}
+.achievements__cards-thrd-1-title {
+  color: #2d2c2a;
+  font-size: 24px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 20px;
+}
+.achievements__cards-thrd-1-p {
+  color: #2d2c2a;
+  font-size: 16px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.achievements__cards-thrd-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.achievements__cards-thrd-2-img {
+  border-radius: 20px;
+  width: 85%;
+}
+.form {
+  width: 65%;
+  margin: auto;
+  background: #f2f4f6;
+  border-radius: 20px;
+  margin-top: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  margin-bottom: 150px;
+}
+.form__title {
+  color: #2d2c2a;
+  font-size: 50px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.form__title-span {
+  background: #f1e40a;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.form-p {
+  color: #2d2c2a;
+  font-size: 20px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 10px;
+}
+.form__inputs {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__input-name {
+  border: none;
+  background: none;
+  border: 1px solid darkgrey;
+  border-radius: 15px;
+  width: 20%;
+  height: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  font-family: "Evolventa", Arial, sans-serif;
+}
+.form__input-number {
+  border: none;
+  background: none;
+  border: 1px solid darkgrey;
+  border-radius: 15px;
+  width: 20%;
+  height: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  font-family: "Evolventa", Arial, sans-serif;
+  margin-right: 30px;
+}
+.form__input-button {
+  border: none;
+  background: none;
+  background-color: #000;
+
+  color: white;
+  border-radius: 20px;
+  width: 15%;
+  height: 40px;
+  color: white;
+  font-size: 13px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  transition: 0.5s;
+}
+.checkbox-container {
+  width: 100%;
+  display: flex;
+}
+.offers {
+  width: 35%;
+}
+.form__input-checkbox-p {
+  color: #2d2c2a;
+  font-size: 13px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.form__input-checkbox {
+  border: none;
+  background: none;
+  accent-color: #f2f4f6;
+  border: 1px solid black;
+}
+.form__input-button:hover {
+  background: #f2f4f6;
+  color: black;
+  border: 1px solid black;
+}
+iframe {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background: #2d2c2a;
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+}
+.footer__container {
+  width: 30%;
+  margin: auto;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Evolventa", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+a {
+  text-decoration: none;
+}
+.footer__socialMedias {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer__socMedia {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: none;
+  border-radius: 50%;
+  background: #f2f4f6;
+}
+#button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (width < 1700px) {
+  .examples {
+    margin: auto;
+    width: 90%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  .introduction-text-list-item {
+    color: #2d2c2a;
+    font-size: 12px;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 20px;
+  }
+  .form {
+    height: 400px;
+  }
+}
+@media (width < 1200px) {
+  .achievements {
+    width: 100%;
+    margin: auto;
+  }
+  .header__content {
+    flex-direction: column;
+  }
+  .header__content-info-title {
+    font-size: 60px;
+    text-align: center;
+  }
+  .mission-content {
+    flex-direction: column;
+  }
+  .mission-content-cards-container {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mission-content-card {
+    width: 85%;
+    height: 150px;
+    border: 2px solid #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .mission-content-card-img {
+    width: 75px;
+    height: 40px;
+  }
+  .youtube {
+    border-radius: 20px;
+    margin-bottom: 100px;
+  }
+  .cover-img {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .disciplines__title {
+    color: #2d2c2a;
+    font-size: 40px;
+    width: 40%;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .discipline-card .card-number {
+    width: 40px;
+    height: 40px;
+  }
+
+  .discipline-card h3 {
+    font-size: 18px;
+  }
+
+  .discipline-card p {
+    font-size: 13px;
+  }
+
+  .discipline-card .signup-button {
+    width: 70%;
+    height: 45px;
+    font-size: 10px;
+  }
+  .reasons-grid {
+    grid-template-columns: repeat(auto-fit, minmax(70%, 170px));
+  }
+  .reasons__title {
+    font-size: 40px;
+  }
+  .examples-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+  }
+  .examples-img-1 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+
+  .examples-img-2 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .examples-img-3 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+  .examples-img-4 {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+}
+@media (width < 430px) {
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+  .header__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  .header__info-logo {
+    border: none;
+    background: none;
+    background-image: url(images/header__info-logo.png);
+    width: 220px;
+    height: 75px;
+    background-size: 220px 75px;
+    background-repeat: no-repeat;
+  }
+  .header__info-types {
+    display: none;
+  }
+  .header__info-num {
+    font-size: 14px;
+    display: none;
+  }
+  .header__content {
+    margin: 0;
+    width: 100%;
+  }
+  .header__content-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .header__content-info-title {
+    font-size: 35px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+  .header__content-info-button {
+    margin: 0;
+  }
+  .mission {
+    margin: 0;
+    margin: auto;
+    margin-top: 80px;
+    width: 85%;
+  }
+  .mission__title {
+    font-size: 35px;
+  }
+
+  .mission-description {
+    font-size: 14px;
+  }
+  .mission-content {
+    width: 100%;
+  }
+  .mission-content-cards-container {
+    width: 100%;
+    height: 100%;
+  }
+  .mission-content-card {
+    width: 100%;
+    height: 150px;
+  }
+
+  .youtube {
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .mission-content-card-p {
+    font-size: 18px;
+    width: 60%;
+  }
+  #group__lessons-p {
+    width: 90%;
+  }
+  #format-p {
+    width: 90%;
+  }
+  .mission-content-video {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .cover {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .reasons {
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .reasons__title {
+    font-size: 35px;
+    width: 60%;
+  }
+  .reasons__title-span {
+    padding: 10px;
+  }
+  .reasons__cards-container {
+    display: flex;
+  }
+  .reasons-grid {
+    margin: auto;
+  }
+
+  /* Card Styling */
+  .reason-card {
+    background-color: #fff;
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    height: 150px;
+    margin-left: 35px;
+  }
+
+  .reason-card img {
+    width: 80px; /* Adjust the size of icons */
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .reason-card p {
+    font-size: 14px;
+  }
+
+  .disciplines {
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .disciplines__title {
+    font-size: 35px;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .disciplines-grid {
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Card Styles */
+  .discipline-card {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .discipline-card .card-number {
+    width: 60px;
+    height: 60px;
+  }
+
+  .discipline-card p {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .discipline-card .signup-button {
+    width: 90%;
+    transition: 0.6s;
+    margin-top: 30px;
+  }
+
+  .card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .cards-container-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+    width: 100%;
+  }
+  .cards-container-2 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+  }
+  .cards-container-3 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+  }
+  #card-number-1 {
+    width: 80%;
+    height: 400px;
+  }
+  #card-number-2 {
+    width: 80%;
+    height: 440px;
+    display: flex;
+  }
+  #text {
+    width: 90%;
+  }
+  .disciplines-caption {
+    font-size: 12px;
+    margin-left: 45px;
+    margin-top: 40px;
+    opacity: 0.6;
+    width: 66%;
+  }
+  .examples {
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .examples-title {
+    margin: auto;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .examples-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .examples-img-1 {
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+  }
+
+  .examples-img-2 {
+    width: 350px;
+    border-radius: 20px;
+  }
+  .examples-img-3 {
+    width: 350px;
+    border-radius: 20px;
+  }
+  .examples-img-4 {
+    width: 350px;
+    border-radius: 20px;
+  }
+  .reasons__title {
+    font-size: 25px;
+    width: 86%;
+  }
+  .reasons {
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .introduction {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .introduction__text {
+    width: 80%;
+    margin: auto;
+  }
+  .introduction__text-title {
+    font-size: 35px;
+  }
+  .introduction__text-title-span {
+    padding: 10px;
+  }
+  .introduction-text-list-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+  }
+  .image-carousel {
+    margin: auto;
+    width: 75%; /* Take up half the width */
+    position: relative;
+    border-radius: 20px; /* Rounded corners */
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.8s;
+    border-radius: 20px;
+    width: 520%;
+  }
+
+  .carousel-image {
+    width: 300px; /* Each image takes up 50% (original 100%, divided into 2) */
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  /* Navigation Dots */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .motivation {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .motivation__title {
+    font-size: 35px;
+    width: 70%;
+  }
+
+  .motivation__grid {
+    padding-left: 0;
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .motivation__grid-img {
+    border-radius: 20px;
+    width: 350px;
+  }
+  #motivation__grid-img-type-2 {
+    width: 350px;
+  }
+  .teachers {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .teaceh__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .teaceh__card-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 0;
+  }
+  #card__dmitryNest {
+    padding-bottom: 40px;
+  }
+  #card__dmitryNest img {
+    width: 340px;
+    height: 340px;
+    background-repeat: no-repeat;
+  }
+  #card__ElenaBorj {
+    padding-bottom: 20px;
+  }
+  .teachers__title {
+    color: #2d2c2a;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+
+  .costs {
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .costs__text {
+    width: 90%;
+    text-align: left;
+    margin: auto;
+  }
+  .costs__variants {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .costs__text-title {
+    font-size: 30px;
+  }
+  .costs__text-p {
+    margin-bottom: 30px;
+  }
+  .toggle-button {
+    color: black;
+  }
+  .achievements {
+    width: 100%;
+    margin: auto;
+  }
+  .achievements__title {
+    font-size: 35px;
+    width: 78%;
+    margin-left: 20px;
+  }
+  .achievements__title-span {
+    padding: 10px 10px 10px 10px;
+  }
+  .achievements__cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .achievements__cards-first {
+    display: flex;
+    width: 100%;
+    height: 810px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .achievements__cards-first-1-img {
+    border-radius: 20px;
+    width: 85%;
+    height: 240px;
+  }
+  .achievements__cards-first-1-title {
+    margin-top: 10px;
+  }
+  .achievements__cards-first-1-description {
+    margin-top: 0px;
+  }
+  .achievements__cards-first-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .achievements__cards-first-2-img {
+    border-radius: 20px;
+    width: 90%;
+    height: 310px;
+    object-fit: cover;
+  }
+  .achievements__cards-scnd-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .achievements__cards-scnd {
+    width: 100%;
+  }
+  .achievements__cards-scnd-1-title {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .achievements__cards-scnd-1-p {
+    margin-top: 5px;
+    width: 85%;
+    opacity: 0.8;
+  }
+  .achievements__cards-scnd-1-img {
+    width: 90%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .achievements__cards-thrd {
+    width: 100%;
+  }
+  .achievements__cards-thrd-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .achievements__cards-thrd-1-img {
+    border-radius: 20px;
+    width: 85%;
+    height: 360px;
+  }
+  .achievements__cards-thrd-1-title {
+    margin-top: 10px;
+  }
+  .achievements__cards-thrd-1-p {
+    margin-top: 5px;
+  }
+  .achievements__cards-thrd-2-img {
+    border-radius: 20px;
+    width: 85%;
+    height: 340px;
+  }
+  .form {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+  .form__title {
+    color: #2d2c2a;
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.8;
+  }
+  .form__title-span {
+    background: #f1e40a;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+  }
+  .form-p {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+  .form__inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .form__input-name {
+    width: 100%;
+  }
+  .form__input-number {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .form__input-button {
+    width: 100%;
+  }
+  .checkbox-container {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .form__input-checkbox-p {
+    font-size: 8px;
+  }
+  .offers {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background: #2d2c2a;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+  }
+  .footer__container {
+    width: 40%;
+    margin: auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__text {
+    color: #ffffff;
+    font-size: 8px;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 00;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  .footer__socialMedias {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__socMedia {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    background: #f2f4f6;
+  }
+  #button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #button3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
