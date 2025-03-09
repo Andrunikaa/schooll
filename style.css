@@ -163,6 +163,7 @@ video {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  width: 100%;
 }
 .mission-content-cards-container {
   width: 40%;
@@ -171,9 +172,10 @@ video {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-right: 50px;
 }
 .mission-content-card {
-  width: 85%;
+  width: 100%;
   height: 150px;
   border: 2px solid #c9c9c9;
   display: flex;
@@ -181,6 +183,7 @@ video {
   justify-content: space-around;
   align-items: center;
   border-radius: 15px;
+  margin-top: 10px;
 }
 .mission-content-card-img {
   width: 75px;
@@ -188,6 +191,9 @@ video {
 }
 .youtube {
   border-radius: 20px;
+  width: 80%;
+  height: 500px;
+  margin: auto;
 }
 
 .mission-content-card-p {
@@ -210,12 +216,13 @@ video {
 }
 .mission-content-video {
   height: 100%;
-  width: 60%;
+  width: 100%;
   border-radius: 20px;
 }
-.cover-img {
+.cover {
   height: 100%;
   width: 100%;
+  margin: auto;
   margin-top: 100px;
 }
 .reasons {
@@ -234,6 +241,7 @@ video {
   border-color: transparent;
   border-style: solid;
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 .reasons__title-span {
   background: #f1e40a;
@@ -450,7 +458,7 @@ video {
 }
 .examples {
   margin: auto;
-  width: 60%;
+  width: 80%;
   margin-top: 90px;
   margin-bottom: 100px;
 }
@@ -466,9 +474,11 @@ video {
 }
 .examples-container {
   display: flex;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
+  width: 80%;
 }
 .examples-block {
   display: flex;
@@ -503,7 +513,7 @@ video {
   width: 65%;
 }
 .introduction {
-  width: 65%;
+  width: 60%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -511,6 +521,7 @@ video {
 }
 .introduction__text {
   width: 45%;
+  margin-right: 50px;
 }
 .introduction__text-title {
   font-size: 60px;
@@ -575,7 +586,7 @@ video {
 }
 
 .image-carousel {
-  width: 100%; /* Take up half the width */
+  width: 70%; /* Take up half the width */
   position: relative;
   overflow: hidden;
   border-radius: 20px; /* Rounded corners */
@@ -878,6 +889,7 @@ video {
   background-position: center center;
   border-color: transparent;
   border-style: solid;
+  margin-bottom: 40px;
 }
 .achievements__title-span {
   background: #f1e40a;
@@ -949,7 +961,7 @@ video {
   align-items: center;
 }
 .achievements__cards-scnd {
-  width: 35%;
+  width: 30%;
 }
 .achievements__cards-scnd-1-title {
   color: #2d2c2a;
@@ -976,7 +988,7 @@ video {
   width: 100%;
 }
 .achievements__cards-scnd-1-img {
-  width: 100%;
+  width: 85%;
   height: 570px;
   border-radius: 20px;
 }
@@ -990,7 +1002,8 @@ video {
 }
 .achievements__cards-thrd-1-img {
   border-radius: 20px;
-  width: 85%;
+  width: 75%;
+  height: 450px;
 }
 .achievements__cards-thrd-1-title {
   color: #2d2c2a;
@@ -1024,7 +1037,8 @@ video {
 }
 .achievements__cards-thrd-2-img {
   border-radius: 20px;
-  width: 85%;
+  width: 75%;
+  height: 400px;
 }
 .form {
   width: 65%;
@@ -1412,7 +1426,7 @@ a {
   .youtube {
     border-radius: 20px;
     width: 100%;
-    height: 400px;
+    height: 700px;
   }
 
   .mission-content-card-p {
@@ -1426,7 +1440,7 @@ a {
     width: 90%;
   }
   .mission-content-video {
-    height: 100%;
+    height: 700px;
     width: 100%;
     border-radius: 20px;
   }
@@ -1575,17 +1589,20 @@ a {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin: auto;
   }
   .examples-title {
     margin: auto;
     width: 70%;
     font-size: 12px;
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .examples-container {
     margin: 0;
     padding: 0;
     margin-top: 20px;
+    margin: auto;
   }
   .examples-img-1 {
     width: 350px;
@@ -1640,7 +1657,7 @@ a {
   }
   .image-carousel {
     margin: auto;
-    width: 75%; /* Take up half the width */
+    width: 73%; /* Take up half the width */
     position: relative;
     border-radius: 20px; /* Rounded corners */
   }
