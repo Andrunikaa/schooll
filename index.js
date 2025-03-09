@@ -68,3 +68,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const menuContainer = document.querySelector(".menu-container");
+  const menuButton = document.querySelector(".menu-button");
+  const closeButton = document.querySelector(".menu-close-button");
+
+  function toggleMenu() {
+    menuContainer.classList.toggle("expanded");
+  }
+
+  menuButton.addEventListener("click", toggleMenu);
+  closeButton.addEventListener("click", toggleMenu); // Close on close button click
+});
