@@ -1663,7 +1663,7 @@ a {
   }
   .image-carousel {
     margin: auto;
-    width: 80%; /* Take up half the width */
+    width: 78%; /* Take up half the width */
     position: relative;
     border-radius: 20px; /* Rounded corners */
   }
