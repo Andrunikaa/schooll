@@ -10,32 +10,19 @@
   <body>
     <div class="menu-container">
       <button class="menu-button">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
+        <img class="menu__img" src="images/menu-icon.png" alt="" />
       </button>
 
       <div class="menu-dropdown">
         <button class="menu-close-button">✕</button>
         <ul>
-          <li><a href="#">Миссия</a></li>
-          <li><a href="#">Дисциплины</a></li>
-          <li><a href="#">Руководители</a></li>
-          <li><a href="#">Преподаватели</a></li>
-          <li><a href="#">Стоимость занятий</a></li>
-          <li><a href="#">Достижения учеников</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="#mission">Миссия</a></li>
+          <li><a href="#disciplines">Дисциплины</a></li>
+          <li><a href="#introduction">Руководитель</a></li>
+          <li><a href="#teachers">Преподаватели</a></li>
+          <li><a href="#costs">Стоимость занятий</a></li>
+          <li><a href="#achievements">Достижения учеников</a></li>
+          <li><a href="#footer">Контакты</a></li>
         </ul>
       </div>
     </div>
@@ -67,7 +54,7 @@
         </div>
       </div>
     </header>
-    <div class="mission">
+    <div class="mission" id="mission">
       <h2 class="mission__title">
         <span class="mission__title-span">Миссия</span> нашей школы
       </h2>
@@ -190,7 +177,7 @@
         </div>
       </div>
     </div>
-    <div class="disciplines">
+    <div class="disciplines" id="disciplines">
       <h2 class="disciplines__title">
         Дисциплины <span class="disciplines__title-span">для детей</span>
       </h2>
@@ -395,7 +382,7 @@
         </div>
       </div>
     </div>
-    <div class="introduction">
+    <div class="introduction" id="introduction">
       <div class="introduction__text">
         <h2 class="introduction__text-title">
           Всем <span class="introduction__text-title-span">привет</span>
@@ -521,7 +508,7 @@
         />
       </div>
     </div>
-    <div class="teachers">
+    <div class="teachers" id="teachers">
       <h2 class="teachers__title">
         Наши <span class="teachers__title-span">преподаватели</span>
       </h2>
@@ -608,7 +595,7 @@
         </div>
       </div>
     </div>
-    <div class="costs">
+    <div class="costs" id="costs">
       <div class="costs__text">
         <h2 class="costs__text-title">Стоимость занятий</h2>
         <p class="costs__text-p">
@@ -766,7 +753,7 @@
         </div>
       </div>
     </div>
-    <div class="achievements">
+    <div class="achievements" id="achievements">
       <h2 class="achievements__title">
         <span class="achievements__title-span">Достижения</span> наших учеников
       </h2>
@@ -903,7 +890,7 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
       <div class="footer__container">
         <p class="footer__text">
           Можете связаться с нами по телефону:
@@ -911,13 +898,25 @@
         </p>
         <div class="footer__socialMedias">
           <button class="footer__socMedia" id="button1">
-            <img src="images/socMedia-inst.png" alt="" />
+            <img
+              class="footer__button-img"
+              src="images/socMedia-inst.png"
+              alt=""
+            />
           </button>
           <button class="footer__socMedia" id="button2">
-            <img src="images/socMedia-vk.png" alt="" />
+            <img
+              class="footer__button-img"
+              src="images/socMedia-vk.png"
+              alt=""
+            />
           </button>
           <button class="footer__socMedia" id="button3">
-            <img src="images/socMedia-whatsapp.png" alt="" />
+            <img
+              class="footer__button-img"
+              src="images/socMedia-whatsapp.png"
+              alt=""
+            />
           </button>
         </div>
         <a class="footer__text" href="">Политика конфиденциальности</a>
