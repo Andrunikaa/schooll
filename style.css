@@ -1666,7 +1666,6 @@ a {
     width: 75%; /* Take up half the width */
     position: relative;
     border-radius: 20px; /* Rounded corners */
-    border:1px solid blue;
   }
 
   .carousel-wrapper {
@@ -1677,7 +1676,7 @@ a {
   }
 
   .carousel-image {
-    width: 300px; /* Each image takes up 50% (original 100%, divided into 2) */
+    width: 285px; /* Each image takes up 50% (original 100%, divided into 2) */
     height: 300px;
     border-radius: 20px;
   }
